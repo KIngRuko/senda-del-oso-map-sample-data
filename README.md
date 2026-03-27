@@ -1,6 +1,6 @@
 # La Senda del Oso Map Sample Data
 
-Small public map dataset from [La Senda del Oso](https://lasendadeloso.com).
+Small public map dataset from [lasendadeloso.com](https://lasendadeloso.com).
 
 This repository publishes a limited, structured sample of route segments and key access points from the public trail map without exposing editorial content, booking logic, or internal workflows.
 
