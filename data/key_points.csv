@@ -1,0 +1,10 @@
+id,type,poi_type,name,segment_ids,lat,lon,summary_es
+buyera,stop,,Buyera,entrago-buyera,43.2152,-5.9961,Zona central con conexión cómoda hacia Proaza.
+cercado-osos,poi,attraction,Cercado de osos,,43.2195,-5.962,Parada habitual para familias y visitas rápidas.
+entrago,stop,,Entrago,entrago-buyera,43.192,-6.084,Inicio habitual para el descenso más sencillo.
+parking-entrago,poi,parking,Parking Entrago,,43.1925,-6.0835,Ideal si priorizas tramo fácil y panorámico.
+parking-proaza,poi,parking,Parking Proaza,,43.2215,-5.9645,Buena opción para ruta corta + cercado de osos.
+parking-tunon,poi,parking,Parking Tuñón,,43.226,-5.987,Base más equilibrada si quieres decidir ruta al llegar.
+proaza,stop,,Proaza,tunon-proaza|proaza-valdemurio,43.221,-5.965,Nudo principal de la Senda y acceso al cercado.
+tunon,stop,,Tuñón,tunon-proaza,43.2256,-5.9867,Tramo llano recomendado para familias con peques.
+valdemurio,stop,,Valdemurio,proaza-valdemurio,43.2388,-6.0362,"Ramal más tranquilo, ideal para ritmo relajado."

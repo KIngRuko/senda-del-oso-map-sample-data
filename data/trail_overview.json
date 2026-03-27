@@ -1,0 +1,137 @@
+{
+  "dataset": {
+    "name": "La Senda del Oso Map Sample Data",
+    "website": "https://lasendadeloso.com",
+    "source_page": "https://lasendadeloso.com/mapa/",
+    "route_segments": 3,
+    "key_points": 9,
+    "licenses": {
+      "code": "MIT",
+      "data": "CC BY 4.0"
+    }
+  },
+  "route_segments": [
+    {
+      "segment_id": "entrago-buyera",
+      "name": "Entrago -> Buyera",
+      "distance_km": "18",
+      "profile": "Descenso suave",
+      "estimated_time": "1.5 - 2.5 h",
+      "best_for": "Primera vez y familias",
+      "color": "#166534",
+      "parts": 69
+    },
+    {
+      "segment_id": "proaza-valdemurio",
+      "name": "Proaza -> Valdemurio",
+      "distance_km": "10",
+      "profile": "Subida progresiva",
+      "estimated_time": "1 - 2 h",
+      "best_for": "Ritmo tranquilo",
+      "color": "#2f6f53",
+      "parts": 25
+    },
+    {
+      "segment_id": "tunon-proaza",
+      "name": "Tunon -> Proaza",
+      "distance_km": "11",
+      "profile": "Llaneo comodo",
+      "estimated_time": "1 - 1.5 h",
+      "best_for": "Ninos pequenos",
+      "color": "#92400e",
+      "parts": 34
+    }
+  ],
+  "key_points": [
+    {
+      "id": "buyera",
+      "type": "stop",
+      "poi_type": "",
+      "name": "Buyera",
+      "segment_ids": "entrago-buyera",
+      "lat": 43.2152,
+      "lon": -5.9961,
+      "summary_es": "Zona central con conexión cómoda hacia Proaza."
+    },
+    {
+      "id": "cercado-osos",
+      "type": "poi",
+      "poi_type": "attraction",
+      "name": "Cercado de osos",
+      "segment_ids": "",
+      "lat": 43.2195,
+      "lon": -5.962,
+      "summary_es": "Parada habitual para familias y visitas rápidas."
+    },
+    {
+      "id": "entrago",
+      "type": "stop",
+      "poi_type": "",
+      "name": "Entrago",
+      "segment_ids": "entrago-buyera",
+      "lat": 43.192,
+      "lon": -6.084,
+      "summary_es": "Inicio habitual para el descenso más sencillo."
+    },
+    {
+      "id": "parking-entrago",
+      "type": "poi",
+      "poi_type": "parking",
+      "name": "Parking Entrago",
+      "segment_ids": "",
+      "lat": 43.1925,
+      "lon": -6.0835,
+      "summary_es": "Ideal si priorizas tramo fácil y panorámico."
+    },
+    {
+      "id": "parking-proaza",
+      "type": "poi",
+      "poi_type": "parking",
+      "name": "Parking Proaza",
+      "segment_ids": "",
+      "lat": 43.2215,
+      "lon": -5.9645,
+      "summary_es": "Buena opción para ruta corta + cercado de osos."
+    },
+    {
+      "id": "parking-tunon",
+      "type": "poi",
+      "poi_type": "parking",
+      "name": "Parking Tuñón",
+      "segment_ids": "",
+      "lat": 43.226,
+      "lon": -5.987,
+      "summary_es": "Base más equilibrada si quieres decidir ruta al llegar."
+    },
+    {
+      "id": "proaza",
+      "type": "stop",
+      "poi_type": "",
+      "name": "Proaza",
+      "segment_ids": "tunon-proaza|proaza-valdemurio",
+      "lat": 43.221,
+      "lon": -5.965,
+      "summary_es": "Nudo principal de la Senda y acceso al cercado."
+    },
+    {
+      "id": "tunon",
+      "type": "stop",
+      "poi_type": "",
+      "name": "Tuñón",
+      "segment_ids": "tunon-proaza",
+      "lat": 43.2256,
+      "lon": -5.9867,
+      "summary_es": "Tramo llano recomendado para familias con peques."
+    },
+    {
+      "id": "valdemurio",
+      "type": "stop",
+      "poi_type": "",
+      "name": "Valdemurio",
+      "segment_ids": "proaza-valdemurio",
+      "lat": 43.2388,
+      "lon": -6.0362,
+      "summary_es": "Ramal más tranquilo, ideal para ritmo relajado."
+    }
+  ]
+}
